@@ -1,38 +1,38 @@
-.App {
+.App { 
   text-align: center;
+  width: 500px; 
+  border-radius: 30px; 
+  padding: 40px; 
+  background-color: #fff; 
+  position: relative; }
+
+body { 
+  margin: 0; 
+  font-family: ‘Nunito’, sans-serif; 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  background-color: #6a5be2; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .result { text-align: center; }
+
+.App .result button { 
+  font-weight: bold; 
+  font-family: ‘Nunito’, sans-serif; 
+  border-radius: 30px; 
+  border: 0; 
+  padding: 15px 30px; 
+  font-size: 20px; 
+  background-color: #ff006e; 
+  color: #fff; 
+  margin-top: 20px; 
+  cursor: pointer; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.App .result h2 { margin-bottom: 0; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.App .result img { width: 150px; }
